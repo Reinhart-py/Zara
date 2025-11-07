@@ -31,6 +31,18 @@ Nothing special just a mass proxy checker at high-speed, asynchronous proxy chec
 4. **Results**  
    Working proxies are saved to `working.txt` after the check completes.
 
+
+**One command installation**
+
+```
+git clone https://github.com/Reinhart-py/Zara.git && cd zara && pip install aiohttp
+```
+
+**just run now**
+```
+python Checker.py
+```
+
 ## Customization
 
 - You can change concurrency, timeout, or test URL at the top of `Checker.py`.
